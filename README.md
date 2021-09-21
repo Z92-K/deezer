@@ -1,0 +1,2 @@
+# deezer
+Single page app
