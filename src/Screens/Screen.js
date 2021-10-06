@@ -2,11 +2,11 @@ import React ,{ Fragment }from 'react'
 
 import { useMediaQuery } from 'react-responsive'
 // import { Button } from "reactstrap";
-import { getAuthCode } from "./getAuthCode";
-import  authCallback  from "./callback"
-import Fetch from "./Fetch";
-import images from '../src/assets'
-import Button from './Components/Button'
+import { getAuthCode } from "../Authentication/getAuthCode";
+import  authCallback  from "../Authentication/callback"
+import Fetch from "../Fetch";
+import images from '../assets'
+import Button from '../Components/Button'
 
 
 const Screen = () => {

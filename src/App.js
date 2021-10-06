@@ -5,8 +5,8 @@ import {
     Route
 } from "react-router-dom";
 
-import Screen from "./Screen"
-import Callback from "./PlayaScreen"
+import Screen from "./Screens/Screen"
+import Callback from "./Screens/PlayaScreen"
 
 
 class App extends Component {

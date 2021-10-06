@@ -9,7 +9,7 @@ import {
 } from 'reactstrap';
 
 
-import  Fetch  from './Fetch'
+import  Fetch  from '../Fetch'
 
 const PlayaScreen = ( props) => {
 
