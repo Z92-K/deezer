@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 import Screen from "./Screen"
+import Callback from "./PlayaScreen"
 
 
 class App extends Component {
@@ -54,6 +55,9 @@ class App extends Component {
                 <Switch>
                     <Route path="/" exact>
                         <Screen style={styles} />
+                    </Route>
+                    <Route path="/callback" exact>
+                        <Callback/>
                     </Route>
                 </Switch>
             </Router>
